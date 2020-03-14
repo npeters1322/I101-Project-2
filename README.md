@@ -1,5 +1,5 @@
 # 2019-2020 NCAA Men's Basketball Web Service
-This web service provides access to data on the 2019-2020 NCAA men's basketball season. 
+This web service provides access to data on the 2019-2020 NCAA men's basketball season (team stats through March 1, individual stats through March 2).
 
 ## All Teams
 
@@ -41,10 +41,12 @@ https://i101-project-2--natepeters.repl.co/get-conference/{conference}
 
 #### Parameters
 **conference**
+
 The conference to search by
 
 #### Examples
 https://i101-project-2--natepeters.repl.co/get-conference/Big_Ten
+
 https://i101-project-2--natepeters.repl.co/get-conference/ACC 
 
 
@@ -73,6 +75,7 @@ https://i101-project-2--natepeters.repl.co/leading-scorers/{conference}
 
 #### Parameters
 **conference**
+
 The conference to search by
 
 #### Example
@@ -89,10 +92,12 @@ https://i101-project-2--natepeters.repl.co/find-player/{player}
 
 #### Parameters
 **player**
+
 The player to search by (will only pull a certain team if they are a team's leader in points, rebounds, or assists)
 
 #### Example
 https://i101-project-2--natepeters.repl.co/find-player/Cassius%20Winston
+
 (can put space between first and last name or put %20)
 
 
@@ -106,10 +111,12 @@ https://i101-project-2--natepeters.repl.co/find-team/{team}
 
 #### Parameters
 **team**
+
 The team to search for (if it doesn't work, try acronym or longer version of school)
 
 #### Example
 https://i101-project-2--natepeters.repl.co/find-team/Michigan%20State
+
 (can put space between words or put %20)
 
 
